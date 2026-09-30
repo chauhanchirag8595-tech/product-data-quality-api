@@ -1,0 +1,349 @@
+{
+  "n": 5000,
+  "duplicate_barcode_groups": 0,
+  "invalid_barcodes": 99,
+  "average_score": 54.3,
+  "ge75_count": 1161,
+  "ge75_pct": 23.22,
+  "score_counts": {
+    "0": 108,
+    "12": 139,
+    "25": 127,
+    "38": 849,
+    "50": 2336,
+    "62": 280,
+    "75": 381,
+    "88": 529,
+    "100": 251
+  },
+  "blank_counts": {
+    "product_name": 236,
+    "brands": 399,
+    "quantity": 3312,
+    "categories_en": 3543,
+    "ingredients_text": 1028,
+    "nutrition_grade_fr": 1396,
+    "allergens": 4482,
+    "image_url": 3923
+  },
+  "top_brands": [
+    [
+      "Carrefour",
+      49
+    ],
+    [
+      "U",
+      36
+    ],
+    [
+      "Meijer",
+      36
+    ],
+    [
+      "Auchan",
+      35
+    ],
+    [
+      "Casino",
+      28
+    ]
+  ],
+  "top_categories": [
+    [
+      "Beverages,Non-sugared beverages",
+      31
+    ],
+    [
+      "Sugary snacks,Confectioneries,Candies",
+      14
+    ],
+    [
+      "Salty snacks,Appetizers,Crackers",
+      11
+    ],
+    [
+      "Sugary snacks,Biscuits and cakes,Biscuits",
+      10
+    ],
+    [
+      "Sugary snacks,Chocolates,Dark chocolates",
+      9
+    ]
+  ],
+  "group_missing": {
+    "brands": {
+      "Carrefour": {
+        "rows": 49,
+        "most_missing_field": "allergens",
+        "missing_counts": {
+          "product_name": 0,
+          "brands": 0,
+          "quantity": 9,
+          "categories_en": 10,
+          "ingredients_text": 9,
+          "nutrition_grade_fr": 5,
+          "allergens": 34,
+          "image_url": 17
+        }
+      },
+      "U": {
+        "rows": 36,
+        "most_missing_field": "allergens",
+        "missing_counts": {
+          "product_name": 0,
+          "brands": 0,
+          "quantity": 7,
+          "categories_en": 7,
+          "ingredients_text": 4,
+          "nutrition_grade_fr": 5,
+          "allergens": 26,
+          "image_url": 15
+        }
+      },
+      "Meijer": {
+        "rows": 36,
+        "most_missing_field": "quantity",
+        "missing_counts": {
+          "product_name": 0,
+          "brands": 0,
+          "quantity": 36,
+          "categories_en": 36,
+          "ingredients_text": 0,
+          "nutrition_grade_fr": 8,
+          "allergens": 36,
+          "image_url": 36
+        }
+      },
+      "Auchan": {
+        "rows": 35,
+        "most_missing_field": "allergens",
+        "missing_counts": {
+          "product_name": 0,
+          "brands": 0,
+          "quantity": 13,
+          "categories_en": 13,
+          "ingredients_text": 9,
+          "nutrition_grade_fr": 5,
+          "allergens": 25,
+          "image_url": 22
+        }
+      },
+      "Casino": {
+        "rows": 28,
+        "most_missing_field": "allergens",
+        "missing_counts": {
+          "product_name": 0,
+          "brands": 0,
+          "quantity": 9,
+          "categories_en": 8,
+          "ingredients_text": 7,
+          "nutrition_grade_fr": 5,
+          "allergens": 18,
+          "image_url": 12
+        }
+      }
+    },
+    "categories": {
+      "Beverages,Non-sugared beverages": {
+        "rows": 31,
+        "most_missing_field": "allergens",
+        "missing_counts": {
+          "product_name": 0,
+          "brands": 0,
+          "quantity": 29,
+          "categories_en": 0,
+          "ingredients_text": 1,
+          "nutrition_grade_fr": 0,
+          "allergens": 30,
+          "image_url": 30
+        }
+      },
+      "Sugary snacks,Confectioneries,Candies": {
+        "rows": 14,
+        "most_missing_field": "allergens",
+        "missing_counts": {
+          "product_name": 0,
+          "brands": 0,
+          "quantity": 0,
+          "categories_en": 0,
+          "ingredients_text": 2,
+          "nutrition_grade_fr": 2,
+          "allergens": 13,
+          "image_url": 2
+        }
+      },
+      "Salty snacks,Appetizers,Crackers": {
+        "rows": 11,
+        "most_missing_field": "allergens",
+        "missing_counts": {
+          "product_name": 1,
+          "brands": 1,
+          "quantity": 1,
+          "categories_en": 0,
+          "ingredients_text": 2,
+          "nutrition_grade_fr": 1,
+          "allergens": 5,
+          "image_url": 2
+        }
+      },
+      "Sugary snacks,Biscuits and cakes,Biscuits": {
+        "rows": 10,
+        "most_missing_field": "image_url",
+        "missing_counts": {
+          "product_name": 1,
+          "brands": 1,
+          "quantity": 1,
+          "categories_en": 0,
+          "ingredients_text": 3,
+          "nutrition_grade_fr": 2,
+          "allergens": 4,
+          "image_url": 7
+        }
+      },
+      "Sugary snacks,Chocolates,Dark chocolates": {
+        "rows": 9,
+        "most_missing_field": "allergens",
+        "missing_counts": {
+          "product_name": 0,
+          "brands": 0,
+          "quantity": 0,
+          "categories_en": 0,
+          "ingredients_text": 1,
+          "nutrition_grade_fr": 0,
+          "allergens": 7,
+          "image_url": 1
+        }
+      }
+    }
+  },
+  "live": {
+    "requested": 20,
+    "matched": 19,
+    "improved": 14,
+    "declined": 1,
+    "unchanged": 4,
+    "results": [
+      {
+        "barcode": "3250391377404",
+        "status": "ok",
+        "snapshot_score": 75,
+        "live_score": 88
+      },
+      {
+        "barcode": "0814026000858",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 62
+      },
+      {
+        "barcode": "0011110195296",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 62
+      },
+      {
+        "barcode": "3560071041557",
+        "status": "ok",
+        "snapshot_score": 0,
+        "live_score": 25
+      },
+      {
+        "barcode": "0713733381376",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 50
+      },
+      {
+        "barcode": "0041250953869",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 62
+      },
+      {
+        "barcode": "0994504124310",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 62
+      },
+      {
+        "barcode": "0068877007515",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 62
+      },
+      {
+        "barcode": "0034695331569",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 62
+      },
+      {
+        "barcode": "3546635030083",
+        "status": "ok",
+        "snapshot_score": 75,
+        "live_score": 75
+      },
+      {
+        "barcode": "9310072000015",
+        "status": "ok",
+        "snapshot_score": 62,
+        "live_score": 75
+      },
+      {
+        "barcode": "0666140102556",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 62
+      },
+      {
+        "barcode": "0094922755018",
+        "status": "ok",
+        "snapshot_score": 38,
+        "live_score": 25
+      },
+      {
+        "barcode": "3256221660302",
+        "status": "ok",
+        "snapshot_score": 38,
+        "live_score": 88
+      },
+      {
+        "barcode": "5400111122083",
+        "status": "ok",
+        "snapshot_score": 62,
+        "live_score": 88
+      },
+      {
+        "barcode": "3266980177416",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 88
+      },
+      {
+        "barcode": "20004262",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 88
+      },
+      {
+        "barcode": "0837654296448",
+        "status": "ok",
+        "snapshot_score": 50,
+        "live_score": 50
+      },
+      {
+        "barcode": "3250392125059",
+        "status": "rate_limited",
+        "http_status": 429,
+        "snapshot_score": 100,
+        "live_score": null
+      },
+      {
+        "barcode": "8480017012128",
+        "status": "ok",
+        "snapshot_score": 88,
+        "live_score": 88
+      }
+    ]
+  }
+}

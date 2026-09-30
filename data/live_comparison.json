@@ -1,0 +1,126 @@
+{
+  "sample_size": 20,
+  "results": [
+    {
+      "barcode": "3250391377404",
+      "status": "ok",
+      "snapshot_score": 75,
+      "live_score": 88
+    },
+    {
+      "barcode": "0814026000858",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 62
+    },
+    {
+      "barcode": "0011110195296",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 62
+    },
+    {
+      "barcode": "3560071041557",
+      "status": "ok",
+      "snapshot_score": 0,
+      "live_score": 25
+    },
+    {
+      "barcode": "0713733381376",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 50
+    },
+    {
+      "barcode": "0041250953869",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 62
+    },
+    {
+      "barcode": "0994504124310",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 62
+    },
+    {
+      "barcode": "0068877007515",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 62
+    },
+    {
+      "barcode": "0034695331569",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 62
+    },
+    {
+      "barcode": "3546635030083",
+      "status": "ok",
+      "snapshot_score": 75,
+      "live_score": 75
+    },
+    {
+      "barcode": "9310072000015",
+      "status": "ok",
+      "snapshot_score": 62,
+      "live_score": 75
+    },
+    {
+      "barcode": "0666140102556",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 62
+    },
+    {
+      "barcode": "0094922755018",
+      "status": "ok",
+      "snapshot_score": 38,
+      "live_score": 25
+    },
+    {
+      "barcode": "3256221660302",
+      "status": "ok",
+      "snapshot_score": 38,
+      "live_score": 88
+    },
+    {
+      "barcode": "5400111122083",
+      "status": "ok",
+      "snapshot_score": 62,
+      "live_score": 88
+    },
+    {
+      "barcode": "3266980177416",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 88
+    },
+    {
+      "barcode": "20004262",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 88
+    },
+    {
+      "barcode": "0837654296448",
+      "status": "ok",
+      "snapshot_score": 50,
+      "live_score": 50
+    },
+    {
+      "barcode": "3250392125059",
+      "status": "rate_limited",
+      "http_status": 429,
+      "snapshot_score": 100,
+      "live_score": null
+    },
+    {
+      "barcode": "8480017012128",
+      "status": "ok",
+      "snapshot_score": 88,
+      "live_score": 88
+    }
+  ]
+}
