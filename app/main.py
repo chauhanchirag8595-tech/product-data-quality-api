@@ -63,3 +63,9 @@ def stats() -> dict[str, Any]:
 @app.get("/", response_class=HTMLResponse, include_in_schema=False)
 def ui() -> str:
     return Path(__file__).with_name("index.html").read_text(encoding="utf-8")
+
+
+@app.get("/dashboard", response_class=HTMLResponse, include_in_schema=False)
+def dashboard() -> str:
+    dashboard_path = Path(__file__).resolve().parent.parent / "reports" / "dashboard.html"
+    return dashboard_path.read_text(encoding="utf-8")
